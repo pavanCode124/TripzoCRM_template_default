@@ -1,0 +1,74 @@
+.block {
+  margin-top: 14px;
+  break-inside: avoid;
+}
+
+.block:first-child {
+  margin-top: 0;
+}
+
+.blockHead {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 6px;
+}
+
+.blockHead h3 {
+  font-family: var(--qt-font-heading);
+  font-weight: 700;
+  font-size: 14.5px;
+  margin: 0;
+  color: var(--qt-navy);
+}
+
+.iconGood {
+  color: #16a34a;
+}
+
+.iconBad {
+  color: #dc2626;
+}
+
+.iconInfo {
+  color: var(--qt-accent-dark);
+}
+
+.iconBan {
+  color: #dc2626;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  font-size: 12.8px;
+  line-height: 1.5;
+  color: #334155;
+}
+
+.listItem {
+  display: flex;
+  gap: 10px;
+}
+
+.bulletDot {
+  flex: none;
+  width: 4px;
+  height: 4px;
+  border-radius: 999px;
+  background: var(--qt-muted-light);
+  margin-top: 8px;
+}
+
+.paragraphs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 12.8px;
+  line-height: 1.5;
+  color: #334155;
+}
