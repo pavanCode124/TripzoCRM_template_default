@@ -71,16 +71,15 @@
   font-size: 16px;
 }
 
+/* QR code only — no caption, no printed link. */
 .qrRow {
-  max-width: 572px;
   margin: 16px auto 0;
   background: rgba(255, 255, 255, 0.06);
   border-radius: 12px;
   padding: 18px;
   display: flex;
-  align-items: center;
-  gap: 18px;
-  text-align: left;
+  justify-content: center;
+  width: fit-content;
 }
 
 .qrImage {
@@ -90,17 +89,4 @@
   border-radius: 6px;
   background: #fff;
   padding: 5px;
-}
-
-.qrText h4 {
-  margin: 0 0 5px;
-  font-size: 13px;
-  font-weight: 700;
-}
-
-.qrLink {
-  font-size: 10.5px;
-  line-height: 1.5;
-  color: #bfe3ff;
-  word-break: break-all;
 }
